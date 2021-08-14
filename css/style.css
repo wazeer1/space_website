@@ -402,3 +402,84 @@ br.clear {
 	color: #000;
 	font-size: 16px;
 }
+footer{
+	background: #2d2d2d;
+	padding: 50px;
+}
+footer .wrapper{
+	display: flex;
+	width: 100%;
+	justify-content:space-between;
+	margin: 0 auto;
+	align-items: center;
+}
+footer .wrapper .f_number{
+	width:33%;
+	margin-left: 50px;
+	text-align: center;
+}
+footer .wrapper .f_number .img_cont{
+	width:40px;
+	overflow:hidden;
+	padding-bottom: 30px;
+	margin: 0 auto;
+}
+footer .f_number .img_cont img{
+	width: 100%;
+}
+footer .f_number h3{
+	color:#fff;
+}
+@media all and (max-width:760px){
+	#spotlight h1{
+		font-size: 40px;
+	}
+	#about .top{
+		flex-wrap:wrap;
+	}
+	#about .top .widget{
+		width:100%;
+	}
+	#scroll .left{
+		display: none;
+	}
+	#s_scroll .left{
+		display: none;
+	}
+	#partners .bottom{
+		flex-wrap:wrap;
+	}
+	#partners .bottom .cont_widget{
+		width:100%;
+		margin-bottom: 30px;
+	}
+}
+@media all and (max-width:540px){
+	footer .wrapper{
+		flex-wrap:wrap;
+	}
+	footer .wrapper .f_number{
+		width:100%;
+		margin-bottom: 20px;
+	}
+	#home nav{
+		display :none;
+	}
+	#home h1{
+		margin:0 auto
+	}
+	#partners .top{
+		text-align :center;
+	}
+	#spotlight h1{
+		font-size: 27px;
+	}
+	#about .top .widget{
+		border:none;
+	}
+	#partners .top h3 {
+		font-size: 27px;
+		margin: 0 auto ;
+	}
+
+}
